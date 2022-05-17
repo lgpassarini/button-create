@@ -1,0 +1,55 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #ccc;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+  color: #333;
+}
+
+select {
+  margin-top: 1rem;
+}
+
+input {
+  display: block;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 70%;
+}
+
+#button-creator {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 30px;
+  padding: 30px;
+}
+
+#controles {
+  font-family: monospace;
+  font-size: 0.875rem;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+.css {
+  font-family: monospace;
+  font-size: 1.2rem;
+  color: #333;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.css span {
+  display: block;
+  margin-bottom: 0.5rem;
+}
